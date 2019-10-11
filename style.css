@@ -1,25 +1,12 @@
-@import url(
-  https://fonts.googleapis.com/css?family=Roboto:400,
-  100,
-  100italic,
-  300,
-  300italic,
-  400italic,
-  500,
-  500italic,
-  700,
-  700italic,
-  900,
-  900italic&subset=latin,
-  cyrillic
-);
+
 @import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
+/* @import url(/iconic-font.min.css);  */
 
 ul li {
   list-style: none;
 }
 .fabs {
-  bottom: 0;
+  bottom: 50%;
   position: fixed;
   margin: 1em;
   right: 0;
@@ -262,7 +249,7 @@ ul li {
 }
 
 .chat_field.chat_message {
-  /* height: 30px; */
+  padding-left: 10px;
   resize: none;
   font-size: 13px;
   font-weight: 400;
@@ -320,7 +307,6 @@ ul li {
 .fab_field {
   width: 100%;
   display: inline-block;
-  text-align: center;
   background: #fff;
   border-top: 1px solid #eee;
   border-bottom-right-radius: 10px;
@@ -339,13 +325,12 @@ ul li {
   text-align: center;
 }
 
-#fab_camera {
-  float: left;
-  background: rgba(0, 0, 0, 0);
-}
+
 
 #fab_send {
-  float: right;
+  position: absolute;
+  right: 0;
+  display: inline-block;
   background: rgba(0, 0, 0, 0);
 }
 
@@ -459,7 +444,7 @@ ul li {
 .chat .chat_converse .chat_msg_item.chat_msg_item_user {
   margin-right: 20px;
   float: right;
-  color: #eceff1;
+  color: #fff;
 }
 
 .chat .chat_converse .chat_msg_item.chat_msg_item_user .chat_msg_item-text {
@@ -705,7 +690,7 @@ input {
     width: 300px;
   }
   .chat_field {
-    width: 65%;
+    width: 85%;
   }
 }
 /* TABLETS PORTRAIT */
@@ -715,7 +700,7 @@ input {
     width: 300px;
   }
   .chat_field {
-    width: 65%;
+    width: 85%;
   }
 }
 /* TABLET LANDSCAPE / DESKTOP */
@@ -725,7 +710,7 @@ input {
     width: 300px;
   }
   .chat_field {
-    width: 65%;
+    width: 85%;
   }
 }
 /*Color Options*/

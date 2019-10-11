@@ -494,7 +494,13 @@ ul li {
 .chat_msg_item-buttons button:hover{
   filter: brightness(.9);
 }
-
+.chat_msg_item_img-container{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+}
 
 .chat_form .get-notified label {
   color: #077ad6;

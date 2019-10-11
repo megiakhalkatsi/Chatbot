@@ -1,50 +1,45 @@
-
 <head>
-    <meta charset="UTF-8">
-    <title>Chat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-    rel="stylesheet"
-    type="text/css"
-    href="style.css"
-  />
-  </head>
-  
-  <body>
-        <h3>Click on Arrow button to see next screen</h3>
-  
-    <div class="fabs">
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <h3>Click on Arrow button to see next screen</h3>
+
+  <div class="fabs">
     <div class="chat">
       <div class="chat_header">
-            <div class="chat_head">Chat</div>
+        <div class="chat_head">Chat</div>
         <!-- <div class="chat_option">
-          <span id="chat_head">Chat</span> <br>
-         <span id="chat_fullscreen_loader" class="chat_fullscreen_loader"><i class="fullscreen zmdi zmdi-window-maximize"></i></span>
+          <div id="chat_head">Chat</div> <br>
+         <div id="chat_fullscreen_loader" class="chat_fullscreen_loader"><i class="fullscreen zmdi zmdi-window-maximize"></i></div>
       </div> -->
-  
+
       </div>
 
-    <!-- 
+      <!-- 
       <div class="chat_body chat_login">
           <a id="chat_first_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a>
           <p>We make it simple and seamless for businesses and people to talk to each other. Ask us anything</p>
       </div>
       <div id="chat_converse" class="chat_conversion chat_converse">
               <a id="chat_second_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a>
-        <span class="chat_msg_item chat_msg_item_admin">
+        <div class="chat_msg_item chat_msg_item_admin">
               <div class="chat_avatar">
                  <img src="./images/bot.png"/>
-              </div>Hey there! Any question?</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Hello!</span>
-              <span class="status">20m ago</span>
-        <span class="chat_msg_item chat_msg_item_admin">
+              </div>Hey there! Any question?</div>
+        <div class="chat_msg_item chat_msg_item_user">
+              Hello!</div>
+              <div class="status">20m ago</div>
+        <div class="chat_msg_item chat_msg_item_admin">
               <div class="chat_avatar">
                  <img src="./images/bot.png"/>
-              </div>Hey! Would you like to talk sales, support, or anyone?</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-               <span class="status2">Just now. Not seen yet</span>
+              </div>Hey! Would you like to talk sales, support, or anyone?</div>
+        <div class="chat_msg_item chat_msg_item_user">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+               <div class="status2">Just now. Not seen yet</div>
       </div>
       <div id="chat_body" class="chat_body">
           <div class="chat_category">
@@ -60,17 +55,17 @@
   
       </div> -->
 
-     <!--  main chat -->
+      <!--  main chat -->
       <!-- <div id="chat_form" class="chat_converse chat_form"> -->
       <!-- <a id="chat_fourth_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a> -->
-        <!-- <span class="chat_msg_item chat_msg_item_admin">
+      <!-- <div class="chat_msg_item chat_msg_item_admin">
               <div class="chat_avatar">
                  <img src="./images/bot.png"/>
-              </div>Hey there! Any question?</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Hello!</span>
-              <span class="status">20m ago</span>
-        <span class="chat_msg_item chat_msg_item_admin">
+              </div>Hey there! Any question?</div>
+        <div class="chat_msg_item chat_msg_item_user">
+              Hello!</div>
+              <div class="status">20m ago</div>
+        <div class="chat_msg_item chat_msg_item_admin">
               <div class="chat_avatar">
                  <img src="./images/bot.png"/>
               </div>Agent typically replies in a few hours. Don't miss their reply.
@@ -81,9 +76,9 @@
                     <input id="chat_log_email" placeholder="Enter your email"/>
                     <i class="zmdi zmdi-chevron-right"></i>
                 </form>
-              </div></span>
+              </div></div>
   
-          <span class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_msg_item chat_msg_item_admin">
               <div class="chat_avatar">
                  <img src="./images/bot.png"/>
               </div>Send message to agent.
@@ -95,54 +90,83 @@
                     <button>Send</button> 
                 </form>
   
-          </div></span>    -->
+          </div></div>    -->
       <!-- </div> -->
-        <div id="chat_fullscreen" class="chat_conversion chat_converse">
-        <span class="chat_msg_item chat_msg_item_admin">
-              <div class="chat_avatar">
-                 <img src="./images/bot.png"/>
-              </div>Hey there! Any question?</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Hello!</span>
-              <!-- <div class="status">20m ago</div> -->
-        <span class="chat_msg_item chat_msg_item_admin">
-              <div class="chat_avatar">
-                 <img src="./images/bot.png"/>
-              </div>Hey! Would you like to talk sales, support, or anyone?</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-        <span class="chat_msg_item chat_msg_item_admin">
-              <div class="chat_avatar">
-                 <img src="./images/bot.png"/>
-               </div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              Where can I get some?</span>
-        <span class="chat_msg_item chat_msg_item_admin">
-              <div class="chat_avatar">
-                 <img src="./images/bot.png"/>
-               </div>The standard chuck...</span>
-        <span class="chat_msg_item chat_msg_item_user">
-              There are many variations of passages of Lorem Ipsum available</span>
-              <!-- <div class="status2">Just now, Not seen yet</div> -->
-        <span class="chat_msg_item ">
-            <ul class="tags">
-              <li>Hats</li>
-              <li>T-Shirts</li>
-              <li>Pants</li>
-            </ul>
-        </span>
+      <div id="chat_fullscreen" class="chat_conversion chat_converse">
+        <!-- <div class="chatbot_window-content-bot">
+                              <div class="chatbot_window_img-container">
+                                    <img src="./images/bot.png" alt="Bot" class="chatbot_window_img">
+                              </div>
+                              <div class="chatbot_window-content-bot-message-bg">
+                                    <p class="chatbot_window-content-bot-message">Hello</p>
+                              </div>
+                        </div> -->
+        <div class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="./images/bot.png" />
+          </div>
+          <span class="chat_msg_item-text">Hey there! Any question?</span>
+          <span class="chat_msg_item-text">Hey there! Any question?</span>
+          <span class="chat_msg_item-text">Hey there! Any question?</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_user">
+          <span class="chat_msg_item-text"> Hello!</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="./images/bot.png" />
+          </div>
+          <span class="chat_msg_item-text">Hey! Would you like to talk sales, support, or anyone?</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_user">
+          <span class="chat_msg_item-text"> Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="./images/bot.png" />
+          </div>
+          <span class="chat_msg_item-text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book.
+          </span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_user">
+          <span class="chat_msg_item-text"> Where can I get some?</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="./images/bot.png" />
+          </div>
+          <span class="chat_msg_item-text"> The standard chuck...</span>
+        </div>
+        <div class="chat_msg_item chat_msg_item_user">
+          <span class="chat_msg_item-text"> There are many variations of passages of Lorem Ipsum available</span>
+        </div>
+        <!-- <div class="status2">Just now, Not seen yet</div> -->
+        <div class="chat_msg_item chat_msg_item_admin">
+          <div class="chat_avatar">
+            <img src="./images/bot.png" />
+          </div>
+          <span class="chat_msg_item-text">Lorem Ipsum Text...</span>
+          <div class="chat_msg_item-buttons">
+              <button>Yes</button>
+              <button>No</button>
+              <button>Something</button>
+          </div>
+        </div>
       </div>
       <div class="fab_field">
         <a id="fab_camera" class="fab"><i class="zmdi zmdi-camera"></i></a>
         <a id="fab_send" class="fab"><i class="zmdi zmdi-mail-send"></i></a>
-        <textarea id="chatSend" name="chat_message" placeholder="Send a message" class="chat_field chat_message"></textarea>
+        <textarea id="chatSend" name="chat_message" placeholder="Send a message"
+          class="chat_field chat_message"></textarea>
       </div>
     </div>
-      <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
+    <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
   </div>
-    <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
-  
-      <!-- <script src="js/index.js"></script> -->
-      <script src="script.js"></script>
-  </body>
-  
+  <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+
+  <!-- <script src="js/index.js"></script> -->
+  <script src="script.js"></script>
+</body>

@@ -369,7 +369,7 @@ ul li{
     overflow-y: auto;
     width: 100%;
     float: right;
-    padding-bottom: 100px;
+   /*  padding-bottom: 100px; */
 }
 /* .chat_converse2{
       height: 100%;
@@ -757,3 +757,5 @@ input {
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: #bbb;
 }
+
+
